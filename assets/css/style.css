@@ -1,0 +1,36 @@
+body {
+    background-image: url("../images/background.jpg");
+	background-size: 25%;
+	background-attachment: fixed;
+}
+  
+* {
+	box-sizing: border-box;
+}
+img { 
+    height: 150px;
+    width: 150px;
+}
+/* adds spacing between each button */
+.btn {
+    margin: 3px;
+    background-color: #999999;
+    border-color: #fff;
+}
+/* this allows the images go in a one straight line */
+.gifDiv{
+    float: left;
+    margin: 3px;
+}
+.container {
+	background-color: #fff;
+	opacity: 0.8;
+	padding: 20px;
+}
+.jumbotron {
+    background-color: inherit;
+}
+.jumbotron .h1, .jumbotron h1 {
+    text-align: center;
+}
+
