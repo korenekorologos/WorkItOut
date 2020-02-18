@@ -4,9 +4,9 @@ $(document).ready(function(){
 });
 
 // my array of exercises 
-	var topics = [ "running", "kickball", "basketball", "pilates", "jump rope", "barre", "rock climbing", "hiking", "surfing", "paddle boarding", "soccer", 
-			"cricket", "zumba", "yoga", "cycling", "aerobics", "kick boxing"];
-
+var topics = [ "running", "kickball", "basketball", "badminton", "golf", "jump rope", "martial arts", "ballet", "bowling", "skiing", "snowboarding", "ping pong", "rock climbing", "hiking", "surfing", "paddle boarding", "soccer", 
+			"cricket", "cycling", "fishing", "baseball", "kick boxing"];
+			
 // function that populates and appends buttons
 function populateButtons(topics, classToAdd, areaToAddTo){
 	$(areaToAddTo).empty();
